@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "extraadvancedcombat",
+  "version": "${version}",
+
+  "name": "Extra Advanced Combat",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "OK135246"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT Lincense",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.OK135246.extraadvancedcombat.ExtraAdvancedCombat"
+    ],
+    "client": [
+      "net.OK135246.extraadvancedcombat.ExtraAdvancedCombatClient"
+    ]
+  },
+  "mixins": [
+    "extraadvancedcombat.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
