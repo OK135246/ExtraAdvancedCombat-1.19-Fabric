@@ -9,5 +9,15 @@
   "item.extraadvancedcombat.advanced_emerald_pickaxe": "Advanced Emerald Pickaxe",
   "item.extraadvancedcombat.nether_star_pickaxe": "Nether Star Pickaxe",
   "item.extraadvancedcombat.advanced_nether_star_pickaxe": "Advanced Nether Star Pickaxe",
-  "item.extraadvancedcombat.advanced_netherite_pickaxe": "Advanced Netherite Pickaxe"
+  "item.extraadvancedcombat.advanced_netherite_pickaxe": "Advanced Netherite Pickaxe",
+  "item.extraadvancedcombat.advanced_wooden_axe": "Advanced Wooden Axe",
+  "item.extraadvancedcombat.advanced_stone_axe": "Advanced Stone Axe",
+  "item.extraadvancedcombat.advanced_iron_axe": "Advanced Iron Axe",
+  "item.extraadvancedcombat.advanced_gold_axe": "Advanced Gold Axe",
+  "item.extraadvancedcombat.advanced_diamond_axe": "Advanced Diamond Axe",
+  "item.extraadvancedcombat.emerald_axe": "Emerald Axe",
+  "item.extraadvancedcombat.advanced_emerald_axe": "Advanced Emerald Axe",
+  "item.extraadvancedcombat.nether_star_axe": "Nether Star Axe",
+  "item.extraadvancedcombat.advanced_nether_star_axe": "Advanced Nether Star Axe",
+  "item.extraadvancedcombat.advanced_netherite_axe": "Advanced Netherite Axe"
 }
