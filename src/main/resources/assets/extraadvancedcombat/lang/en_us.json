@@ -19,5 +19,15 @@
   "item.extraadvancedcombat.advanced_emerald_axe": "Advanced Emerald Axe",
   "item.extraadvancedcombat.nether_star_axe": "Nether Star Axe",
   "item.extraadvancedcombat.advanced_nether_star_axe": "Advanced Nether Star Axe",
-  "item.extraadvancedcombat.advanced_netherite_axe": "Advanced Netherite Axe"
+  "item.extraadvancedcombat.advanced_netherite_axe": "Advanced Netherite Axe",
+  "item.extraadvancedcombat.advanced_wooden_shovel": "Advanced Wooden Shovel",
+  "item.extraadvancedcombat.advanced_stone_shovel": "Advanced Stone Shovel",
+  "item.extraadvancedcombat.advanced_iron_shovel": "Advanced Iron Shovel",
+  "item.extraadvancedcombat.advanced_gold_shovel": "Advanced Gold Shovel",
+  "item.extraadvancedcombat.advanced_diamond_shovel": "Advanced Diamond Shovel",
+  "item.extraadvancedcombat.emerald_shovel": "Emerald Shovel",
+  "item.extraadvancedcombat.advanced_emerald_shovel": "Advanced Emerald Shovel",
+  "item.extraadvancedcombat.nether_star_shovel": "Nether Star Shovel",
+  "item.extraadvancedcombat.advanced_nether_star_shovel": "Advanced Nether Star Shovel",
+  "item.extraadvancedcombat.advanced_netherite_shovel": "Advanced Netherite Shovel"
 }
