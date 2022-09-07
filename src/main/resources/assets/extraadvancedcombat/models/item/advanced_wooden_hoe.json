@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "extraadvancedcombat:item/advanced_wooden_hoe"
+  }
+}

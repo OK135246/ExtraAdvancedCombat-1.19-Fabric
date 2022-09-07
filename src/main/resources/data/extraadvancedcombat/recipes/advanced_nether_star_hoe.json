@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "X": {
+      "item": "extraadvancedcombat:nether_star_hoe"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_nether_star_hoe"
+  }
+}

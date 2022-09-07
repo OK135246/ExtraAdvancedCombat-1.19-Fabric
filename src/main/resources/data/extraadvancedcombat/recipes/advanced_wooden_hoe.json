@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:wooden_hoe"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_wooden_hoe"
+  }
+}

@@ -2,6 +2,7 @@ package net.OK135246.extraadvancedcombat.item;
 
 import net.OK135246.extraadvancedcombat.ExtraAdvancedCombat;
 import net.OK135246.extraadvancedcombat.item.custom.ModAxeItem;
+import net.OK135246.extraadvancedcombat.item.custom.ModHoeItem;
 import net.OK135246.extraadvancedcombat.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -105,6 +106,37 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_NETHER_STAR_SHOVEL = registerItem("advanced_nether_star_shovel",
             new ModAxeItem(ModToolMaterials.ADVANCED_NETHER_STAR, 0, -2.4f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_WOODEN_HOE = registerItem("advanced_wooden_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_WOOD, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_STONE_HOE = registerItem("advanced_stone_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_STONE, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_IRON_HOE = registerItem("advanced_iron_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_IRON, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_GOLD_HOE = registerItem("advanced_gold_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_GOLD, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_DIAMOND_HOE = registerItem("advanced_diamond_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_DIAMOND, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item EMERALD_HOE = registerItem("emerald_hoe",
+            new ModHoeItem(ModToolMaterials.EMERALD, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_EMERALD_HOE = registerItem("advanced_emerald_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_EMERALD, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHERITE_HOE = registerItem("advanced_netherite_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_NETHERITE, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item NETHER_STAR_HOE = registerItem("nether_star_hoe",
+            new ModHoeItem(ModToolMaterials.NETHER_STAR, -2, -2.2f,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHER_STAR_HOE = registerItem("advanced_nether_star_hoe",
+            new ModHoeItem(ModToolMaterials.ADVANCED_NETHER_STAR, -2, -2.2f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
 

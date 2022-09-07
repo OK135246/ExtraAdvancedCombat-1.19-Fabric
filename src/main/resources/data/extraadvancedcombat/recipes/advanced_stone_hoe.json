@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:stone_hoe"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_stone_hoe"
+  }
+}
