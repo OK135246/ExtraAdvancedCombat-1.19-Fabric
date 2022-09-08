@@ -5,6 +5,7 @@ import net.OK135246.extraadvancedcombat.item.custom.ModAxeItem;
 import net.OK135246.extraadvancedcombat.item.custom.ModHoeItem;
 import net.OK135246.extraadvancedcombat.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -78,34 +79,34 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
     public static final Item ADVANCED_WOODEN_SHOVEL = registerItem("advanced_wooden_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_WOOD, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_WOOD, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_STONE_SHOVEL = registerItem("advanced_stone_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_STONE, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_STONE, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_IRON_SHOVEL = registerItem("advanced_iron_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_IRON, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_IRON, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_GOLD_SHOVEL = registerItem("advanced_gold_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_GOLD, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_GOLD, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_DIAMOND_SHOVEL = registerItem("advanced_diamond_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_DIAMOND, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_DIAMOND, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel",
-            new ModAxeItem(ModToolMaterials.EMERALD, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.EMERALD, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_EMERALD_SHOVEL = registerItem("advanced_emerald_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_EMERALD, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_EMERALD, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_NETHERITE_SHOVEL = registerItem("advanced_netherite_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_NETHERITE, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_NETHERITE, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item NETHER_STAR_SHOVEL = registerItem("nether_star_shovel",
-            new ModAxeItem(ModToolMaterials.NETHER_STAR, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.NETHER_STAR, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_NETHER_STAR_SHOVEL = registerItem("advanced_nether_star_shovel",
-            new ModAxeItem(ModToolMaterials.ADVANCED_NETHER_STAR, 0, -2.4f,
+            new ShovelItem(ModToolMaterials.ADVANCED_NETHER_STAR, 0, -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
     public static final Item ADVANCED_WOODEN_HOE = registerItem("advanced_wooden_hoe",
@@ -138,6 +139,33 @@ public class ModItems {
     public static final Item ADVANCED_NETHER_STAR_HOE = registerItem("advanced_nether_star_hoe",
             new ModHoeItem(ModToolMaterials.ADVANCED_NETHER_STAR, -2, -2.2f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item NETHER_STAR_HELMET = registerItem("nether_star_helmet",
+            new ArmorItem(ModArmorMaterials.NETHER_STAR, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item NETHER_STAR_CHESTPLATE = registerItem("nether_star_chestplate",
+            new ArmorItem(ModArmorMaterials.NETHER_STAR, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item NETHER_STAR_LEGGINGS = registerItem("nether_star_leggings",
+            new ArmorItem(ModArmorMaterials.NETHER_STAR, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item NETHER_STAR_BOOTS = registerItem("nether_star_boots",
+            new ArmorItem(ModArmorMaterials.NETHER_STAR, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
 
 
 
