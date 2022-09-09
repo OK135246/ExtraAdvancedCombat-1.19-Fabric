@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block",
+    "X": {
+      "item": "minecraft:diamond_leggings"
+      }
+    }
+  },
+  "pattern": [
+    "#X#",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_diamond_leggings"
+  }
+}

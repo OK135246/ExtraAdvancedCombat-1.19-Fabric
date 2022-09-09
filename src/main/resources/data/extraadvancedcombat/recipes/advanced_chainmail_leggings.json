@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:chain",
+    "X": {
+      "item": "minecraft:chainmail_leggings"
+      }
+    }
+  },
+  "pattern": [
+    "#X#",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_chainmail_leggings"
+  }
+}

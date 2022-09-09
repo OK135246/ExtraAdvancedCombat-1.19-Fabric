@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block",
+    "X": {
+      "item": "minecraft:gold_chestplate"
+      }
+    }
+  },
+  "pattern": [
+    "# #",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_gold_chestplate"
+  }
+}

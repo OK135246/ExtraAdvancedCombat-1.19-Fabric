@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:emerald_block",
+    "X": {
+      "item": "extraadvancedcombat:emerald_helmet"
+      }
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_emerald_helmet"
+  }
+}

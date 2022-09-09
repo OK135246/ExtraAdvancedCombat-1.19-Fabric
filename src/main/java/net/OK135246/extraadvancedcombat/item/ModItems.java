@@ -140,6 +140,84 @@ public class ModItems {
             new ModHoeItem(ModToolMaterials.ADVANCED_NETHER_STAR, -2, -2.2f,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
+    public static final Item ADVANCED_LEATHER_HELMET = registerItem("advanced_leather_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_LEATHER, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_LEATHER_CHESTPLATE = registerItem("advanced_leather_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_LEATHER, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_LEATHER_LEGGINGS = registerItem("advanced_leather_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_LEATHER, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_LEATHER_BOOTS = registerItem("advanced_leather_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_LEATHER, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_CHAINMAIL_HELMET = registerItem("advanced_chainmail_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_CHAIN, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_CHAINMAIL_CHESTPLATE = registerItem("advanced_chainmail_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_CHAIN, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_CHAINMAIL_LEGGINGS = registerItem("advanced_chainmail_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_CHAIN, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_CHAINMAIL_BOOTS = registerItem("advanced_chainmail_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_CHAIN, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_IRON_HELMET = registerItem("advanced_iron_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_IRON, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_IRON_CHESTPLATE = registerItem("advanced_iron_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_IRON, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_IRON_LEGGINGS = registerItem("advanced_iron_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_IRON, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_IRON_BOOTS = registerItem("advanced_iron_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_IRON, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_GOLD_HELMET = registerItem("advanced_gold_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_GOLD, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_GOLD_CHESTPLATE = registerItem("advanced_gold_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_GOLD, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_GOLD_LEGGINGS = registerItem("advanced_gold_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_GOLD, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_GOLD_BOOTS = registerItem("advanced_gold_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_GOLD, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_DIAMOND_HELMET = registerItem("advanced_diamond_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_DIAMOND, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_DIAMOND_CHESTPLATE = registerItem("advanced_diamond_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_DIAMOND, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_DIAMOND_LEGGINGS = registerItem("advanced_diamond_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_DIAMOND, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_DIAMOND_BOOTS = registerItem("advanced_diamond_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_DIAMOND, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_NETHERITE_HELMET = registerItem("advanced_netherite_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHERITE_CHESTPLATE = registerItem("advanced_netherite_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHERITE_LEGGINGS = registerItem("advanced_netherite_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHERITE_BOOTS = registerItem("advanced_netherite_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
             new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
@@ -153,6 +231,19 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
+    public static final Item ADVANCEDEMERALD_HELMET = registerItem("advanced_emerald_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_EMERALD, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_EMERALD_CHESTPLATE = registerItem("advanced_emerald_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_EMERALD, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_EMERALD_LEGGINGS = registerItem("advanced_emerald_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_EMERALD, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_EMERALD_BOOTS = registerItem("advanced_emerald_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_EMERALD, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
     public static final Item NETHER_STAR_HELMET = registerItem("nether_star_helmet",
             new ArmorItem(ModArmorMaterials.NETHER_STAR, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
@@ -164,6 +255,23 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item NETHER_STAR_BOOTS = registerItem("nether_star_boots",
             new ArmorItem(ModArmorMaterials.NETHER_STAR, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_NETHER_STAR_HELMET = registerItem("advanced_nether_star_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHER_STAR, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHER_STAR_CHESTPLATE = registerItem("advanced_nether_star_chestplate",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHER_STAR, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHER_STAR_LEGGINGS = registerItem("advanced_nether_star_leggings",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHER_STAR, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item ADVANCED_NETHER_STAR_BOOTS = registerItem("advanced_nether_star_boots",
+            new ArmorItem(ModArmorMaterials.ADVANCED_NETHER_STAR, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+
+    public static final Item ADVANCED_TURTLE_HELMET = registerItem("advanced_turtle_helmet",
+            new ArmorItem(ModArmorMaterials.ADVANCED_TURTLE, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
 

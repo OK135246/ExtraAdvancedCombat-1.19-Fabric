@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:scute",
+    "X": {
+      "item": "minecraft:turtle_helmet"
+      }
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#"
+  ],
+  "result": {
+    "item": "extraadvancedcombat:advanced_turtle_helmet"
+  }
+}
