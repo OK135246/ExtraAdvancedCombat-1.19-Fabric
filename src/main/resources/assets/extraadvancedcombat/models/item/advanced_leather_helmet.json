@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "extraadvancedcombat:item/advanced_leather_helmet"
+    "layer0": "extraadvancedcombat:item/advanced_leather_helmet",
+    "layer1": "extraadvancedcombat:item/advanced_leather_helmet_overlay"
   }
 }
