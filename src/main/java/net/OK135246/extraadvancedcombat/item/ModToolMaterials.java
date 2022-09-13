@@ -11,10 +11,10 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-        ADVANCED_WOOD(0, 236, 4.0F, 2.0F, 25, () -> {
+        ADVANCED_WOOD(0, 236, 4.0F, 4.0F, 25, () -> {
             return Ingredient.fromTag(ItemTags.PLANKS);
         }),
-        ADVANCED_STONE(1, 524, 7.5F, 3.5F, 10, () -> {
+        ADVANCED_STONE(1, 524, 7.5F, 5.5F, 10, () -> {
             return Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS);
         }),
         ADVANCED_IRON(2, 2250, 9.5F, 7.0F, 20, () -> {
