@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "extraadvancedcombat",
-  "version": "${version}",
+  "version": "1.0.0",
 
   "name": "Extra Advanced Combat",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A mod that improves Advanced Combat in all the ways noone asked for.",
   "authors": [
     "OK135246"
   ],
@@ -36,6 +36,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "another-mod": "advanced combat"
   }
 }
