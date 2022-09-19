@@ -1,6 +1,7 @@
 package net.OK135246.extraadvancedcombat.item;
 
 import net.OK135246.extraadvancedcombat.ExtraAdvancedCombat;
+import net.OK135246.extraadvancedcombat.item.custom.AdvancedNetherStarArmour;
 import net.OK135246.extraadvancedcombat.item.custom.ModAxeItem;
 import net.OK135246.extraadvancedcombat.item.custom.ModHoeItem;
 import net.OK135246.extraadvancedcombat.item.custom.ModPickaxeItem;
@@ -258,7 +259,7 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
     public static final Item ADVANCED_NETHER_STAR_HELMET = registerItem("advanced_nether_star_helmet",
-            new ArmorItem(ModArmorMaterials.ADVANCED_NETHER_STAR, EquipmentSlot.HEAD,
+            new AdvancedNetherStarArmour(ModArmorMaterials.ADVANCED_NETHER_STAR, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ADVANCED_NETHER_STAR_CHESTPLATE = registerItem("advanced_nether_star_chestplate",
             new ArmorItem(ModArmorMaterials.ADVANCED_NETHER_STAR, EquipmentSlot.CHEST,
